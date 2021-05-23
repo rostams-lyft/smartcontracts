@@ -21,4 +21,8 @@ contract DataTypes {
         return (x, i, j, isEthereumCool, owner, bMsg, sMsg);
     }
 
+    function setbMsg(bytes32 val) private {
+        bMsg = val;
+    }
+
 }
