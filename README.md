@@ -1,4 +1,4 @@
-# smartcontracts
+# Smart Contracts
 
 Playing with smart contracts and app development on Ethereum network using Truffle, Solidity and MetaMask.
 
@@ -10,7 +10,11 @@ Check solidity version at https://github.com/ethereum/solc-bin/tree/gh-pages/bin
 
 Make sure that compiler version is the same as truffle version.
 
-## commands
+## Gas
+
+Gas cost is the cost of a single operation. Gas price is the highest price per gas unit a transaction originator is willing to pay, gas limit is the total number of gas units a transition originator is willing to pay, and the transaction fee is the total gas cost of all operations in a transaction.
+
+## Commands
 
 ```
 truffle init
