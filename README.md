@@ -15,11 +15,14 @@ Playing with smart contracts and app development on Ethereum network using Truff
 
 The Truffle framework makes it easy to create and manage Ethereum smart contract development projects. Geth provides the EVM and Ethereum node software, Ganache implements a local test blockchain, and Metamask is a desktop wallet.
 
+# Best Practices
+
+Make sure to follow [smart contract best practices](https://consensys.github.io/smart-contract-best-practices/).
+
+
 ## Notes
 
-Check solidity version at https://github.com/ethereum/solc-bin/tree/gh-pages/bin
-
-Make sure that compiler version is the same as truffle version.
+Check solidity version [here](https://github.com/ethereum/solc-bin/tree/gh-pages/bin). Make sure that compiler version is the same as truffle version.
 
 ## Gas
 
