@@ -1,3 +1,14 @@
+# Install Truffle and Solidity on Mac OS
+
+In order to install Truffle and Solidity on your Mac OS you need to run these commands:
+
+```
+brew update
+brew install node
+npm install -g truffle
+npm install -g solc
+```
+
 # Smart Contracts
 
 Playing with smart contracts and app development on Ethereum network using Truffle, Solidity and MetaMask.
