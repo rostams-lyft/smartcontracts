@@ -54,7 +54,7 @@ Your unit tests need to cover overflows/underflows, valid return values, boundar
 
 ### CLI
 
-Use for quick simple tests one-time tests. One example of CLI test can be found in SupplyChain smart contract.
+Use for quick simple tests one-time tests. One example of CLI test can be found in [SupplyChain smart contract](https://github.com/rostams-lyft/smartcontracts/blob/main/SupplyChainApp/test/cli_test.md).
 
 ### JS test
 
