@@ -42,3 +42,26 @@ HelloWorld.deployed().then(function(instance) {return instance});
 truffle(development)> HelloWorld.deployed().then(function(instance) {return instance.getHelloMessage()});
 
 ```
+
+## Testing
+
+Two ways of testing: locally using Ganache, or using a public test blockchain (e.g. Ropsten).
+
+There are three options for testing smart cotracts: CLI, Solidity smart contracts, JavaScript.
+
+Your unit tests need to cover overflows/underflows, valid return values, boundary conditions, iteration limits, input/output data format, and input/output data.
+
+
+### CLI
+
+Use for quick simple tests one-time tests. One example of CLI test can be found in SupplyChain smart contract.
+
+### JS test
+
+For testing in JavaScripts, you can scafolld and run tests using the following commands:
+
+```
+truffle create test SupplyChain
+
+truffle test
+```
