@@ -30,17 +30,39 @@ Gas cost is the cost of a single operation. Gas price is the highest price per g
 
 ## Commands
 
+### Initialize a Project
+
 ```
 truffle init
+```
 
+### Compile commands
+
+```
+truffle compile
+truffle compile --all
+truffle compile --network development
+truffle compile --all --network ropsten
+```
+
+### Deploy commands
+
+```
+truffle deploy
+truffle migrate
+truffle deploy --network development
+truffle deploy --network ropsten
 truffle deploy --reset
+```
 
+### Other commands
+
+```
 truffle console
 
 HelloWorld.deployed().then(function(instance) {return instance});
 
 truffle(development)> HelloWorld.deployed().then(function(instance) {return instance.getHelloMessage()});
-
 ```
 
 ## Testing
